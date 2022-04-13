@@ -2,19 +2,23 @@
 
 1.- Tell me about a time you had to explain something technical to a nontechnical
 person.
+
 I have worked with the client directly and when I had to recollect information or explain what is my proposal or solution; I tried to use an easy words, and translate this explanation easy to understand to anybody.
 
 
 
 2.- Which Sorting algorithm do you like the most? What is its complexity?
+
 I prefer Merge sort because is an efficient algorithm to sort; it operates very well on any data type. Does not matter the size because it apply “divide and conquer” technique. The time of complexity of this algorithm is O(n log n).
 
 
 3.- Where are usually allocated log files in a unix system?
+
 they are in /var/log
 
 
 4.- What is your opinion about Golang for the web?
+
 Golang is a pragmatic language, easy to use and learn. You can create n API in 10 minutes or less, you can design quicky and scalable web applicationsThis language has a good perfomance because it works with concurrency model, you can create goroutines and theys are more cheape and faster than Python threads.
 
 Golang has support for technologies from HTTP/2, database like MySQL, MongoDB and it gives you facility to deploy faster.
@@ -23,6 +27,7 @@ Golang has support for technologies from HTTP/2, database like MySQL, MongoDB an
 
 5.- Write the UNIX command that adds the read access permission to the group
 members of a directory and to all its content.
+
 
 ~~~bash
 # 1.- Change group owner of the directory
@@ -71,18 +76,15 @@ func UniqueFruits(fruits ...[]string) []string {
 7.- Write an HTML page with a div containing the text Alcachofa in green colour.
 The div must be horizontally and vertically centred.
 
-~~~hmtl
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
-<HTML>
-   <HEAD>
-   </HEAD>
-   <BODY>
+~~~hmtl5
+<!doctype html>
+<html>
+   <body>
       <div class="centered">
       <p style="text-align: center;"><span          style="color:     #00ff00;">Alcachofa</span></p>
     </div>
-   </BODY>
-</HTML>
+   </body>
+</html>
 ~~~
 
 
