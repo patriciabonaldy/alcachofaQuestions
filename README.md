@@ -7,9 +7,11 @@ I have worked with the client directly and when I had to recollect information o
 
 
 
+
 2.- Which Sorting algorithm do you like the most? What is its complexity?
 
 I prefer Merge sort because is an efficient algorithm to sort; it operates very well on any data type. Does not matter the size because it apply “divide and conquer” technique. The time of complexity of this algorithm is O(n log n).
+
 
 
 3.- Where are usually allocated log files in a unix system?
@@ -17,11 +19,15 @@ I prefer Merge sort because is an efficient algorithm to sort; it operates very 
 they are in /var/log
 
 
+
+
 4.- What is your opinion about Golang for the web?
 
 Golang is a pragmatic language, easy to use and learn. You can create n API in 10 minutes or less, you can design quicky and scalable web applicationsThis language has a good perfomance because it works with concurrency model, you can create goroutines and theys are more cheape and faster than Python threads.
 
 Golang has support for technologies from HTTP/2, database like MySQL, MongoDB and it gives you facility to deploy faster.
+
+
 
 
 
@@ -73,6 +79,8 @@ func UniqueFruits(fruits ...[]string) []string {
 ~~~
 
 
+
+
 7.- Write an HTML page with a div containing the text Alcachofa in green colour.
 The div must be horizontally and vertically centred.
 
@@ -86,6 +94,8 @@ The div must be horizontally and vertically centred.
    </body>
 </html>
 ~~~
+
+
 
 
 8.- From the following tables write a SQL query:
