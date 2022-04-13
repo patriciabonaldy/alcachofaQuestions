@@ -1,4 +1,4 @@
-# alcachofaQuestions
+# Alcachofa Questions
 
 1.- Tell me about a time you had to explain something technical to a nontechnical
 person.
